@@ -1,0 +1,8 @@
+name = "Gmail"
+uuid = "7cc0a4a5-fbe5-4984-b4af-6576fb0ca95e"
+authors = ["dokudo91 <92647519+dokudo91@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+ArgParse = "c7e460c6-2fb9-53a9-8c5b-16f535851c63"
+SMTPClient = "c35d69d1-b747-5018-a192-25bc5e63c83d"
