@@ -3,7 +3,7 @@ using ArgParse
 include("smtp.jl")
 
 function create_settings()
-    s = ArgParseSettings()
+    s = ArgParseSettings()::ArgParseSettings
     @add_arg_table! s begin
         "send"
         action = :command
